@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <div class="box">
+        <p class="btnAlert">Cuando el botón de copiar está en color verde, significa que cada vez que se desencripte o
+            encripte se copiará el texto al portapapeles, y si está en color rojo el botón significa que esta opción
+            está desactivada, para activar o desactivar sólo haz clic en el botón <b>Copiar</b>.
+            <b>ADVERTENCIA: </b> Al desencriptar o encriptar todas las letras se pasarán a minúsculas para evitar errores, tampoco el sistema reconoce letras con acentos.
+        </p>
+        <div class="area">
+            <textarea id="txtEncriptar" cols="30" rows="10"></textarea>
+            <div class="botones">
+                <button type="button" id="btnEncriptar" class="btnEncriptar">Encriptar</button>
+                <button type="button" id="btnCopiar" class="btnCopiar">Copiar</button>
+                <button type="button" id="btnDesencriptar" class="btnDesencriptar">Desencriptar</button>
+            </div>
+            <textarea id="txtDesencriptar" cols="30" rows="10"></textarea>
+        </div>
+        <span>Página elaborada 100% por <a href="https://www.linkedin.com/in/pedro-de-le%C3%B3n-120356272/">Pedro De
+                León.</a></span>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
